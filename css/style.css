@@ -49,3 +49,8 @@ header img{
 .didascalia{
   font-size: 10px;
 }
+
+.articolo ul{
+  margin-left: 14px;
+  padding: 0;
+}
