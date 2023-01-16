@@ -42,7 +42,8 @@ header img{
 }
 
 .articolo .firma,
-.articolo .data{
+.articolo .data,
+.articolo h3{
   color: #8B8B8B;
 }
 
@@ -74,4 +75,25 @@ header img{
 .tabella-blu th:nth-child(-n + 2),
 .tabella-blu td:nth-child(-n + 2){
   width: 200px;
+}
+
+
+/* article */
+
+.article-link{
+  width: 200px;
+  position: relative;
+  padding: 0;
+}
+
+.article-link img{
+  width: 100%;
+}
+
+.article-link span{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color:#fff;
+  font-weight: 700;
 }
