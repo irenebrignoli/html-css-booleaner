@@ -54,3 +54,24 @@ header img{
   margin-left: 14px;
   padding: 0;
 }
+
+/* table */
+
+.tabella-blu{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tabella-blu th{
+  background-color: #20A9E5;
+  color: #fff;
+}
+
+.tabella-blu tbody tr:nth-child(odd){
+  background-color: #B1E5F2;
+}
+
+.tabella-blu th:nth-child(-n + 2),
+.tabella-blu td:nth-child(-n + 2){
+  width: 200px;
+}
